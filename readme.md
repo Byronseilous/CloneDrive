@@ -2,7 +2,7 @@
 
 # MyDrive
 
-MyDrive is an Open Source cloud file storage server (Similar To Google Drive). Host myDrive on your own server or trusted platform and then access myDrive through your web browser. MyDrive uses mongoDB to store file/folder metadata, and supports multiple databases to store the file chunks, such as Amazon S3, the Filesystem, or just MongoDB. MyDrive is built using Node.js, and Typescript. The service now even supports Docker images! 
+CloudBox is an open-source cloud file storage server that empowers you to take control of your data, just like Google Drive. With CloudBox, you can host your own server or utilize trusted platforms to store and access your files through any web browser. Powered by Node.js and TypeScript, CloudBox is a versatile and feature-rich solution for your file storage needs.
 
 [Main myDrive website](https://mydrive-storage.com/)
 
@@ -19,10 +19,7 @@ Go to the main myDrive website for more infomation, screenshots, and more.
 * [Docker](#docker)
 * [Environment Variables](#environment-variables)
 * [Screenshots](#screenshots)
-* [Wiki](https://github.com/subnub/myDrive/wiki)
-* [Video](#video)
-* [Demo](#demo)
-* [Fund/Donate](#fund)
+
 
 ## Features
 
@@ -211,24 +208,3 @@ Client Environment Variables
 - REMOTE_URL (Required): Sets the Remote URL for the client.
 - DISABLE_STORAGE (Optional): Disables storage, use this if you're not using ROOT on the server.
 
-## Wiki
-
-For a more detailed setup guide please visit the main myDrive site: https://mydrive-storage.com/
-
-The wiki includes guided setup: https://github.com/subnub/myDrive/wiki
-
-## Video
-
-I created a short YouTube video, showing off myDrives design and features: https://www.youtube.com/watch?v=_bcADP6hDDI&feature=youtu.be
-
-## Demo
-
-Demo: https://mydrive-3.herokuapp.com/
-- Note: The Upload and Download Features, and other core features, are disabled in the demo.
-
-## Fund
-
-Patreon: https://www.patreon.com/subnub
-
-## Questions? Feature Requests? Hiring? Contact Me!
-Contact Email: kyle.hoell@gmail.com
